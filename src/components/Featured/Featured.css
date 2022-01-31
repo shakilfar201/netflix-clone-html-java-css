@@ -1,0 +1,50 @@
+.featured{
+    height: 90vh;
+    position: relative;
+}
+.info{
+    width: 35%;
+    position: absolute;
+    left: 50px;
+    bottom: 75px;
+    display: flex;
+    flex-direction: column;
+}
+.info .desc{
+    margin: 15px 0;
+}
+.buttons{
+    display: flex;
+}
+.buttons span{
+    margin-left: 4px;
+}
+.buttons button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.play{
+    background-color: white;
+}
+.play:hover{
+    background-color: rgba(51, 50, 50, 0.884);
+    color: white;
+    transition: .4s;
+}
+.more{
+    background-color: rgb(151, 151, 151);
+    color: white;
+    transition: .4s;
+}
+.more:hover{
+    background-color: rgba(51, 50, 50, 0.884);
+    transition: .4s;
+}
